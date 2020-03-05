@@ -40,7 +40,7 @@ vendor.peripheral.         u:object_r:per_mgr_state_prop:s0
 vendor.ese.                u:object_r:vendor_secure_element_prop:s0
 vendor.qcom.devup          u:object_r:vendor_device_prop:s0
 vendor.all.modules.ready   u:object_r:vendor_device_prop:s0
-sys.slpi.firmware.version  u:object_r:public_vendor_system_prop:s0
+vendor.sys.slpi.firmware.version  u:object_r:public_vendor_system_prop:s0
 ctl.vendor.imsrcsservice   u:object_r:ctl_vendor_imsrcsservice_prop:s0
 persist.vendor.usb.config  u:object_r:vendor_usb_config_prop:s0
 vendor.usb.config          u:object_r:vendor_usb_config_prop:s0
@@ -175,6 +175,7 @@ persist.vendor.radio.relay_oprt_change  u:object_r:vendor_radio_prop:s0
 persist.vendor.radio.sap_silent_pin  u:object_r:vendor_radio_prop:s0
 persist.vendor.radio.uicc_se_enabled  u:object_r:vendor_radio_prop:s0
 persist.vendor.radio.simlock.list  u:object_r:vendor_radio_prop:s0
+persist.vendor.radio.manual_nw_rej_ct u:object_r:vendor_radio_prop:s0
 ro.radio.log_loc           u:object_r:vendor_radio_prop:s0
 ro.radio.log_prefix        u:object_r:vendor_radio_prop:s0
 
